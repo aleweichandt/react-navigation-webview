@@ -1,6 +1,6 @@
 {
   "name": "react-navigation-webview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Navigation stack router for Webview components",
   "main": "index.js",
   "scripts": {
@@ -21,10 +21,12 @@
     "url": "https://github.com/aleweichandt/react-navigation-webview/issues"
   },
   "homepage": "https://github.com/aleweichandt/react-navigation-webview#readme",
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-navigation": "^2.x.x"
+  },
   "dependencies": {
-    "jquery-param": "^1.0.1",
-    "prop-types": "^15.6.1",
-    "react": "^16.4.1",
-    "react-navigation": "^2.3.1"
+    "jquery-param": "^1.0.0"
   }
 }
