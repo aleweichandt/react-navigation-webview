@@ -1,2 +1,4 @@
-export { default as createWebViewNavigator } from './src/createWebViewNavigator';
-export { default as WebViewDecorator } from './src/createWebViewNavigator';
+import create from './src/createWebViewNavigator';
+import decorator from './src/createWebViewNavigator';
+export const createWebViewNavigator = create;
+export const WebViewDecorator = decorator;
