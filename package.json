@@ -1,0 +1,30 @@
+{
+  "name": "react-navigation-webview",
+  "version": "0.1.0",
+  "description": "React Navigation stack router for Webview components",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleweichandt/react-navigation-webview.git"
+  },
+  "keywords": [
+    "react-navigation",
+    "react",
+    "webview"
+  ],
+  "author": "Alejandro Weichandt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleweichandt/react-navigation-webview/issues"
+  },
+  "homepage": "https://github.com/aleweichandt/react-navigation-webview#readme",
+  "dependencies": {
+    "jquery-param": "^1.0.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.4.1",
+    "react-navigation": "^2.3.1"
+  }
+}
