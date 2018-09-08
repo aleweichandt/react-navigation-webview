@@ -25,7 +25,7 @@ createWebViewNavigator function will create a StackRouter to keep track of uri r
 ```
 import React from 'react';
 import { View, Text } from 'react-native';
-import { createWebViewNavigator } from 'react-navigation';
+import { createWebViewNavigator } from 'react-navigation-webview';
 
 class UriView extends React.Component {
   render() {
