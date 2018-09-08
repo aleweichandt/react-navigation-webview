@@ -78,6 +78,13 @@ const WithDecorator = WebViewDecorator(WebView);
 export default createWebViewNavigator(WithDecorator, routesConfig, webviewConfig);
 ```
 
+If you want to enhance the WebView with Android's back button behaviour, pass React Native's BackHandler to it:
+
+```
+import { WebView, BackHandler } from 'react-native';
+...
+const WithDecorator = WebViewDecorator(WebView, BackHandler);
+```
 
 ## React Navigation Useful Docs
 
